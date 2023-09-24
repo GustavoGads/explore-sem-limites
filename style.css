@@ -74,6 +74,10 @@ header div img {              /* Tamanho e espaçamento do ícone de flecha */
     animation-direction: alternate-reverse;
 }
 
+header div img:hover {
+    filter: grayscale(0.4);
+}
+
                                                                     /* */ 
 
 
@@ -204,6 +208,11 @@ section button {
     text-transform: capitalize;
     line-height: 2.4rem;
     word-wrap: break-word
+}
+
+section button:hover {
+    cursor: pointer;
+    background-color: #312d64e6;
 }
 
 footer {
